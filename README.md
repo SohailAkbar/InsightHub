@@ -108,8 +108,6 @@ Create a .env file:
 
 DATABASE_URL=postgresql://username:password@host:port/dbname
 
-Important: Do NOT commit the .env file to GitHub.
-
 5.  Run application
 
 uvicorn app.main:app –reload
