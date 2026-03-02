@@ -73,21 +73,6 @@ TECH STACK
 
 ------------------------------------------------------------------------
 
-API ENDPOINTS
-
-GET /health Health check POST /stocks Create stock GET /stocks List
-stocks POST /prices Insert price GET /prices/{stock_id} Fetch price
-history GET /analytics/{stock_id} Descriptive analytics GET
-/predict/{stock_id} Generate next prediction GET
-/model-compare/{stock_id} Compare ML models GET
-/prediction-accuracy/{stock_id} Evaluate model accuracy GET
-/drift-status/{stock_id} Detect model drift POST /retrain/{stock_id}
-Retrain model
-
-Swagger documentation: http://127.0.0.1:8000/docs
-
-------------------------------------------------------------------------
-
 INSTALLATION
 
 1.  Clone repository
